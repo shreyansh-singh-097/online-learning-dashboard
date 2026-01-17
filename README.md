@@ -4,7 +4,7 @@ A responsive web dashboard built using HTML, CSS, and JavaScript to manage cours
 
 ## 🔗 Live Demo
 https://lively-unicorn-3a2346.netlify.app
-
+<br>
 ##  Features
 - Editable user profile
 - Dynamic course cards (JSON based)
