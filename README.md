@@ -2,7 +2,7 @@
 
 A responsive web dashboard built using HTML, CSS, and JavaScript to manage courses and track student progress.
 
-## 🔗 Live Demo
+##  Live Demo
 https://lively-unicorn-3a2346.netlify.app
 <br>
 ##  Features
