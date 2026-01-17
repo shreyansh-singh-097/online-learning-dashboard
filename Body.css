@@ -1,0 +1,281 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6C63FF;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.navbar .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #FF6584;
+}
+
+.container {
+    display: flex;
+    margin: 20px 30px;
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-card .profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.profile-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.profile-card .stats {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.profile-card .stats div {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.edit-btn {
+    background-color: #6C63FF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.edit-btn:hover {
+    background-color: #FF6584;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.progress-dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#progressChart {
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+
+.progress-dashboard h2 {
+    margin-bottom: 20px;
+}
+
+.courses-section h2 {
+    margin-bottom: 15px;
+}
+
+.courses-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.course-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.course-card p {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    background-color: #eee;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 6px; 
+    margin-bottom: 8px;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #6C63FF;
+    transition: width 1s ease-in-out;
+}
+
+
+.status {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.resume-btn {
+    background-color: #6C63FF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resume-btn:hover {
+    background-color: #FF6584;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
+    .profile-card {
+        width: 100%;
+    }
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 16px;
+    width: 300px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.modal-content form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 600;
+}
+
+.modal-content form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.modal-content form button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6C63FF;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal-content form button:hover {
+    background-color: #FF6584;
+}
+

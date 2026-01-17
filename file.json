@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Basics",
+    "description": "Learn the fundamentals of JavaScript, including variables, functions, and loops.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=JS+Basics",
+    "progress": 40,
+    "status": "In Progress"
+  },
+  {
+    "id": 2,
+    "title": "HTML & CSS",
+    "description": "Learn how to create beautiful and responsive web pages with HTML and CSS.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=HTML+CSS",
+    "progress": 80,
+    "status": "In Progress"
+  },
+  {
+    "id": 3,
+    "title": "React JS",
+    "description": "Build dynamic web applications using React JS and modern frontend tools.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=React+JS",
+    "progress": 100,
+    "status": "Completed"
+  },
+  {
+    "id": 4,
+    "title": "Python Basics",
+    "description": "Introduction to Python programming for beginners.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=Python",
+    "progress": 20,
+    "status": "Not Started"
+  },
+  {
+    "id": 5,
+    "title": "Data Structures",
+    "description": "Learn common data structures like arrays, stacks, queues, and linked lists.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=Data+Structures",
+    "progress": 50,
+    "status": "In Progress"
+  },
+  {
+    "id": 6,
+    "title": "Algorithms",
+    "description": "Understand algorithm concepts, sorting, searching, and complexity analysis.",
+    "thumbnail": "https://via.placeholder.com/250x150.png?text=Algorithms",
+    "progress": 0,
+    "status": "Not Started"
+  }
+]

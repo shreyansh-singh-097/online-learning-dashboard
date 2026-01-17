@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Body.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EduDash</div>
+        <ul class="nav-links">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <aside class="profile-card">
+            <img src="ss.jpeg" alt="Profile Picture" class="profile-pic">
+            <h2>Shreyansh Singh</h2>
+            <p>Student</p>
+            <p>Email: sraaz8395@gmail.com</p>
+            <div class="stats">
+                <div>Total Courses: <strong id="total-courses">5</strong></div>
+                <div>Completed: <strong id="completed-courses">8</strong></div>
+                <div>Progress: <strong id="overall-progress">90%</strong></div>
+            </div>
+            <button class="edit-btn">Edit Profile</button>
+        </aside>
+
+        
+        <main>
+            
+            <section class="progress-dashboard">
+                <h2>Overall Progress</h2>
+                <canvas id="progressChart"></canvas>
+            </section>
+
+           
+            <section class="courses-section">
+                <h2>My Courses</h2>
+                <div class="courses-container" id="courses-container">
+                    
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        &copy; 2025 Shreyansh's Project, All rights reserved.
+    </footer>
+
+<div class="modal" id="editModal">
+    <div class="modal-content">
+        <span class="close-btn" id="closeModal">&times;</span>
+        <h2>Edit Profile</h2>
+        <form id="editProfileForm">
+            <label>Name:</label>
+            <input type="text" id="editName" required>
+            <label>Email:</label>
+            <input type="email" id="editEmail" required>
+            <label>Role:</label>
+            <input type="text" id="editRole" required>
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
