@@ -20,3 +20,10 @@ https://boisterous-khapse-deac4a.netlify.app/
 
 ##  Author
 Shreyansh Singh
+
+## 🚀 Future Improvements
+
+- Integrate YouTube Data API
+- Add dark mode
+- Add video playback page
+- Add authentication system
