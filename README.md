@@ -27,3 +27,5 @@ Shreyansh Singh
 - Add dark mode
 - Add video playback page
 - Add authentication system
+
+This Online Learning Dashboard helps students track their courses, monitor progress, and manage learning efficiently.
