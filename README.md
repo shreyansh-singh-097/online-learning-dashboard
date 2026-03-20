@@ -20,6 +20,7 @@ https://boisterous-khapse-deac4a.netlify.app/
 
 ##  Author
 Shreyansh Singh
+Developed by Shreyansh Singh  
 
 ## 🚀 Future Improvements
 
