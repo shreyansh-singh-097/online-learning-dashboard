@@ -1,4 +1,4 @@
-
+// JS
 const courses = [
     {
         "title": "JavaScript Basics",
