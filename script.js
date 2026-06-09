@@ -18,7 +18,7 @@ const courses = [
         "title": "React JS",
         "description": "Build dynamic web apps.",
         "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlvLaY144kl5P1hiySpwofhZ6YSXDwfl15JA&s",
-        "progress": 100,
+                "progress": 100,
         "status": "Completed"
     },
     {
